@@ -1,0 +1,10 @@
+@relation weather
+
+@attribute temperature numeric
+@attribute humidity numeric
+@attribute windy {TRUE, FALSE}
+@attribute play {yes, no}
+@attribute outlook {sunny, overcast, rainy}
+
+@data
+91,200,FALSE,no,?
